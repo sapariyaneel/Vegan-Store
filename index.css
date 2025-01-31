@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+*{
+    transition: all .3s;
+    scroll-behavior: smooth;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+header{  
+    width: 100%;
+}
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 0px 28px;
+    height: 77px;
+    width: 100%;
+    position: fixed;
+}
+.dropdown{
+    position: absolute;
+    display: none;
+    text-align: center;
+    background-color: white;
+    color: black;
+    border-top: 2px solid rgb(170, 210, 54);
+}
+.dropdown-1:hover .dropdown{
+    display: block;
+}
+.main-2 b{
+    font-size: 14px;
+    margin-right: 24px;
+    font-weight: 600;
+}
+.main-2 button{
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 73px;
+}
+.landing-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png);
+    background-size: cover;
+    background-position: center;
+}
+.text-landing{
+    width: 60%;
+    margin: 0px auto;
+}
+.text-landing h1{
+    width: 100%;
+    font-weight: 600;
+    letter-spacing: 8.8px;
+    font-size: 44px;
+    line-height: 1.2;
+}
+.text-landing p{
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    padding-top: 32px;
+}
+#steps-section{
+    display: flex;
+    width: 100%;
+}
+#steps-section h3{
+    font-weight: 600;
+    font-size: 24px;
+}
+#steps-section p{
+    font-size: 14px;
+}
+#steps{
+    color:white;
+    width: 25%;
+    text-align: center;
+    padding: 112px 48px;
+    align-items: center;
+}
+.step-1{
+    background-color: #5acda6;
+}   
+.step-2{
+    background-color: #91ac41;
+}
+.step-3{
+    background-color: #e4b476;
+}
+.step-4{
+    background-color: #f69dad;
+}
+#steps-section i{
+    font-size: 96px;
+    transition: all .3s;
+}
+#steps:hover i{
+    transform: scale(1.1);
+}
+#quality{
+    text-align: center;
+    background-color: #f7eee2;
+    padding-top: 74px;
+}
+.title{
+    font-family: "Caveat", cursive;
+    color: #91ac41;
+    font-size: 24px;
+    margin: 0;
+    margin-top: 35px;
+}
+#quality .title-2{
+    font-size: 44px;
+    font-weight: 600;
+    margin-top : 0;
+    margin-bottom: 8px;
+}
+#quality .caption{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+.flex-quality{
+    display: flex;
+    margin: 0 auto;
+    width: 70%;
+}
+.qualities{
+    width: 25%;
+    padding: 24px;
+}
+#quality .fa-solid{
+    font-size: 60px;
+    color: white;
+    background-color: #e3b375;
+    padding: 40px;
+    border-radius: 50%;
+}
+.qualities h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+.qualities p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+}
+.qualities:hover i{
+    transform: scale(1.1);
+}
+.team-members{
+    text-align: center;
+    padding-top: 74px;
+}
+.team-members .title-2{
+    font-size: 44px;
+    font-weight: 600;
+    margin-top : 0;
+    margin-bottom: 8px;
+}
+.team-members .caption{
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0 auto;
+    width: 45%;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    margin-bottom: 55px;
+}
+.profiles{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+}
+.team-profiles{
+    width: 25%;
+    text-align: center;
+    background-color: #f5f6fb;
+    padding: 40px 30px;
+    margin: 16px;
+    border-top-left-radius: 45px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+    transition: box-shadow 0.3s;
+}
+.team-profiles:hover{
+    box-shadow: 0 12px 16px 0 rgba(39,39,47,0.06);
+}
+.team-profiles img{
+    width: 80px;
+    margin-bottom: 25px;
+    border-radius: 50%;
+}
+.msg{
+    font-size: 14px;
+    color: #8b8b99;
+    font-style: italic;
+    margin: 0;
+}
+.msg-2{
+    font-size: 14px;
+    color: #8b8b99;
+    font-style: italic;
+    margin-bottom: 50px;
+}
+.team-profiles h3{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+.work{
+    color: #8b8b99;
+    font-size: 12px;
+    font-style: italic;
+    margin: 0;
+}
+.follow-us{
+    display: flex;
+    margin-top: 100px;
+}
+.left-side{
+    width: 67%;
+}
+.right-side{
+    background-image: url(https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png);
+    width:33%;
+    background-size:cover;
+}
+.right-side h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0 0 8px;
+}
+.right-side p{
+    color: #8b8b99;
+    font-size: 16px;
+    margin: 0;
+}
+.right-side-two{
+    margin: 115px;
+}
+#email-box{
+    width: 100%;
+    border: 0;
+    border-radius: 4px;
+    font-weight: 500;
+    background-color: white;
+    padding: 12px;
+    color: #8b8b99;
+    font-size: 16px;
+    margin-top: 60px;
+    display: block;
+    outline: none;
+}
+.subscribe{
+    background-color: #f69dad;
+    padding: 16px 42px;
+    border-radius: 4px;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 16px;
+}
+.stats{
+    width: 100%;
+    background-color: #f6fcfa;
+    display: flex;
+    margin: 0 auto;
+    text-align: center;
+}
+.statistics{
+    width: 25%;
+    margin: 100px;
+}
+.statistics h3{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0;
+}
+.statistics p{
+    color: #57e3b5;
+    font-size: 14px;
+    font-style: italic;
+    margin: 0;
+}
+.video-section{
+    text-align: center;
+}
+.video-section h3{
+    color: #8b8b99;
+    font-size: 44px;
+    font-weight: 400;
+}
+.video-section hr{
+    width: 96px;
+    border: 0;
+    height: 1px;
+    background-color: #e4b476;
+    margin-bottom: 36px;
+}
+iframe{
+    width: 50%;
+    height: 450px;
+}
+.address-section-2{
+    width: 70%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 100px 0;
+}
+.address-section-2 div{
+    width: 40%;
+}
+.main-head{
+    color: #91ac41;
+    font-size: 24px;
+    font-family: 'Caveat', cursive;
+    margin: 0;
+    margin-top: 35px;
+}
+.second-main-head{
+    font-size: 40px;
+    margin: 0;
+}
+.info-add{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+}
+.location{
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0;
+    margin-top: 32px;
+}
+.address{
+    font-size: 16px;
+    font-weight: 400;
+    color: #8b8b99;
+    line-height: 2;
+    margin: 0;
+}
+.input{
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    color: #8b8b99;
+    border-radius: 6px;
+    border: 1px solid #e5e6ec;
+    margin-bottom: 16px;
+    font-family: "Poppins", sans-serif;
+}
+.submit-now-add{
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(170, 210, 54);
+    padding: 9px 34px;
+    border: 0;
+    border-radius: 4px;
+    margin-right: 16px;
+    outline: none;
+}
+footer{
+    background-color: #232323;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0px;
+}
